@@ -6,7 +6,7 @@ BRIDGE_MIX = [
 ]
 
 BRIDGE_MARCEL_MIX = [
-    ("bridge", 1.0),
+    ("fractal20220817_data", 1.0),
 ]
 
 BRIDGE_PNP_MIX = [
@@ -284,9 +284,13 @@ SIMPLER_LIBERO_ALL = [
   ("bridge_dataset", 1.0),
   ("fractal20220817_data", 1.0),
 ]
+EXAMPLE = [
+  ("cmu_stretch", 1.0),
+]
 
 OXE_NAMED_MIXES = {
-    "fraktal": FRAKTAL_MIX,
+    "example": EXAMPLE,
+    "fractal": FRAKTAL_MIX,
     "simpler_env": SIMPLER_ENV,
     "real_kitchen_mix": KIT_IRL_REAL_KITCHEN_MIX,
     "real_kitchen_lang": KIT_IRL_REAL_KITCHEN_LANG,

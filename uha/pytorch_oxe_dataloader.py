@@ -108,7 +108,7 @@ class TorchRLDSIterableDataset(torch.utils.data.IterableDataset):
                     
             # else:
                 # print(sample["task"]["language_instruction"])
-                if sample["task"]["pad_mask_dict"]["language_instruction"]:
+                if sample["task"]["pad_mask_dict"]["language_instruction"].any():
                     sample["task"]["language_instruction"] = sample["task"]["language_instruction"].decode("utf-8")
                     sample["task"]["language_instruction"] = self._language_encoder(sample["task"]["language_instruction"])
                 else:

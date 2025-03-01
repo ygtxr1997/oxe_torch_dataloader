@@ -1179,6 +1179,7 @@ def libero_dataset_transform(trajectory: Dict[str, Any]) -> Dict[str, Any]:
 
 
 OXE_STANDARDIZATION_TRANSFORMS = {
+    "example": bridge_transform,
     "bridge": bridge_transform,
     "bridge_dataset_without_single": bridge_transform,
     "kit_irl_real_kitchen_delta_des_joint_euler": kit_irl_dataset_abs_joint_transform, # old

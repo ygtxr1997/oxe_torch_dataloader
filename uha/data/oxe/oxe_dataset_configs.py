@@ -178,7 +178,7 @@ OXE_DATASET_CONFIGS = {
         "depth_obs_keys": {"primary": None, "secondary": None, "wrist": None},
         "proprio_encoding": ProprioEncoding.JOINT,
         "action_encoding": ActionEncoding.JOINT_POS,
-        "data_dir": "/home/marcelr/tensorflow_datasets",
+        # "data_dir": "/home/marcelr/tensorflow_datasets",
         "language_key": "language_instruction*",
         # "shuffle": False,
     },
@@ -187,7 +187,7 @@ OXE_DATASET_CONFIGS = {
         "depth_obs_keys": {"primary": None, "secondary": None, "wrist": None},
         "proprio_encoding": ProprioEncoding.JOINT,
         "action_encoding": ActionEncoding.JOINT_POS,
-        "data_dir": "/home/marcelr/tensorflow_datasets",
+        # "data_dir": "/home/marcelr/tensorflow_datasets",
         # "shuffle": False,
     },
     "droid": {
@@ -219,7 +219,7 @@ OXE_DATASET_CONFIGS = {
         "proprio_encoding": ProprioEncoding.POS_EULER,
         "action_encoding": ActionEncoding.EEF_POS,
         # "data_dir": "~/tensorflow_datasets",
-        "data_dir": "/home/marcelr/tensorflow_datasets",
+        # "data_dir": "/home/marcelr/tensorflow_datasets",
         # "data_dir": "/hkfs/work/workspace/scratch/unesl-datasets/rail.eecs.berkeley.edu/datasets/bridge_release/data/tfds",
     },
     "taco_play": {
@@ -692,7 +692,7 @@ OXE_DATASET_CONFIGS = {
         "proprio_encoding": ProprioEncoding.POS_EULER,
         "action_encoding": ActionEncoding.EEF_POS,
         # "data_dir": "~/tensorflow_datasets/modified_libero_rlds",
-        "data_dir": "/home/marcelr/tensorflow_datasets/modified_libero_rlds",
+        # "data_dir": "/home/marcelr/tensorflow_datasets/modified_libero_rlds",
     },
     "libero_object_no_noops": {
         "image_obs_keys": {"primary": "image", "secondary": None, "wrist": "wrist_image"},
@@ -700,7 +700,7 @@ OXE_DATASET_CONFIGS = {
         "proprio_encoding": ProprioEncoding.POS_EULER,
         "action_encoding": ActionEncoding.EEF_POS,
         # "data_dir": "~/tensorflow_datasets/modified_libero_rlds",
-        "data_dir": "/home/marcelr/tensorflow_datasets/modified_libero_rlds",
+        # "data_dir": "/home/marcelr/tensorflow_datasets/modified_libero_rlds",
     },
     "libero_goal_no_noops": {
         "image_obs_keys": {"primary": "image", "secondary": None, "wrist": "wrist_image"},
@@ -708,7 +708,7 @@ OXE_DATASET_CONFIGS = {
         "proprio_encoding": ProprioEncoding.POS_EULER,
         "action_encoding": ActionEncoding.EEF_POS,
         # "data_dir": "~/tensorflow_datasets/modified_libero_rlds",
-        "data_dir": "/home/marcelr/tensorflow_datasets/modified_libero_rlds",
+        # "data_dir": "/home/marcelr/tensorflow_datasets/modified_libero_rlds",
     },
     "libero_10_no_noops": {
         "image_obs_keys": {"primary": "image", "secondary": None, "wrist": "wrist_image"},
@@ -716,6 +716,6 @@ OXE_DATASET_CONFIGS = {
         "proprio_encoding": ProprioEncoding.POS_EULER,
         "action_encoding": ActionEncoding.EEF_POS,
         # "data_dir": "~/tensorflow_datasets/modified_libero_rlds",
-        "data_dir": "/home/marcelr/tensorflow_datasets/modified_libero_rlds",
+        # "data_dir": "/home/marcelr/tensorflow_datasets/modified_libero_rlds",
     },
 }
